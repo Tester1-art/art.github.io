@@ -1,0 +1,39 @@
+/* Add your CSS styles here */
+body {
+  background-color: lightblue;
+}
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: blue;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding: 20px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: gray;
+  color: white;
+}
