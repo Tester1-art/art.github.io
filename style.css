@@ -1,6 +1,7 @@
 /* Add your CSS styles here */
 body {
   background-color: lightblue;
+  font-family: sans-serif;
 }
 header {
   text-align: center;
@@ -30,6 +31,10 @@ main {
   background-color: white;
   border: 1px solid black;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.box:hover {
+  transform: rotate(360deg);
 }
 footer {
   text-align: center;
